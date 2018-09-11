@@ -13,17 +13,16 @@ alert('Do you realize that by clicking okay button, you just accepted my request
 
 if (User==='Vika_CS110' || User.length===10) {
 	console.log('be ready, your grades are available...');
+	if(DesiredGrade >= f+d && DesiredGrade <= a) {
+	console.log('yay,Vic,you are a genius!'); 
+} else if (DesiredGrade>=f && DesiredGrade<b) {
+	console.log('Good job,but try a bit harder');
+} else if (DesiredGrade<=89 && DesiredGrade>=78 ) {
+	console.log('I think I should skip the upcoming party and revise the material...'); 
+} else {
+	console.log('I cannot accept a garde like this...Shame on me...');
+}
 } else { console.log('not this time,russian hacker... ');}
 
-
- if(DesiredGrade >= f+d && DesiredGrade <= a) {
-	console.log('yay,Vic,you are a genius!'); }
-  else if (DesiredGrade>=f && DesiredGrade<b) {
-	console.log('Good job,but try a bit harder'); }
-	else if (DesiredGrade<=89 && DesiredGrade>=78 ) {
-		console.log('I think I should skip the upcoming party and revise the material...'); }
-		else {
-			console.log('I cannot accept a garde like this...Shame on me...');
-		}
 	
 
